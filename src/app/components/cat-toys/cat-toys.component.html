@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0"> 
+    <link rel="stylesheet"
+          href="cat-toys.component.css"> 
+    <title>Pet Shop</title> 
+</head> 
+  
+<body>
+    <div class="grid">
+        <ng-container *ngFor="let tile of tiles">
+            <div class="tile">
+                <img width="100%" src={{tile.photo}}/>
+                <div style="display: flex; justify-content: space-between;">
+                    <h2>{{tile.name}}</h2>
+                    <h2>{{tile.price}}$</h2>
+                    <button class="btn" (click)="addToCart(tile)">To cart</button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</body> 
+  
+</html>

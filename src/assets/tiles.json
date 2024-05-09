@@ -1,0 +1,169 @@
+{
+    "home": [        
+        {
+            "id": 0,
+            "name": "Cats",
+            "photo": "assets/images/cat.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Dogs",
+            "photo": "assets/images/dog.jpg"
+        }
+    ],
+    "cats": [       
+        {
+            "id": 0,
+            "name": "Food",
+            "photo": "assets/images/cat food.jpg"            
+        },
+        {
+            "id": 1,
+            "name": "Bowls",
+            "photo": "assets/images/cat bowl.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Toys",
+            "photo": "assets/images/cat toys.jpg"
+        }
+    ],
+    "dogs": [       
+        {
+            "id": 0,
+            "name": "Food",
+            "photo": "assets/images/dog food.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Bowls",
+            "photo": "assets/images/dog bowl.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Toys",
+            "photo": "assets/images/dog toys.jpg"
+        }
+    ],
+    "cat food": [       
+        {
+            "id": 0,
+            "name": "Food 1",
+            "photo": "assets/images/cat food.jpg",
+            "price": 10
+            
+        },
+        {
+            "id": 1,
+            "name": "Food 2",
+            "photo": "assets/images/cat food.jpg",
+            "price": 15
+        },
+        {
+            "id": 2,
+            "name": "Food 3",
+            "photo": "assets/images/cat food.jpg",
+            "price": 20
+        }
+    ],
+    "cat bowls": [       
+        {
+            "id": 0,
+            "name": "Bowl 1",
+            "photo": "assets/images/cat bowl.jpg",
+            "price": 5
+        },
+        {
+            "id": 1,
+            "name": "Bowl 2",
+            "photo": "assets/images/cat bowl.jpg",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "Bowl 3",
+            "photo": "assets/images/cat bowl.jpg",
+            "price": 15
+        }
+    ],
+    "cat toys": [       
+        {
+            "id": 0,
+            "name": "Ball",
+            "photo": "assets/images/cat toys.jpg",
+            "price": 5
+        },
+        {
+            "id": 1,
+            "name": "Feather stick",
+            "photo": "assets/images/cat toys.jpg",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "Mouse",
+            "photo": "assets/images/cat toys.jpg",
+            "price": 15
+        }
+    ],
+    "dog food": [       
+        {
+            "id": 0,
+            "name": "Food 1",
+            "photo": "assets/images/dog food.jpg",
+            "price": 10
+        },
+        {
+            "id": 1,
+            "name": "Food 2",
+            "photo": "assets/images/dog food.jpg",
+            "price": 15
+        },
+        {
+            "id": 2,
+            "name": "Food 3",
+            "photo": "assets/images/dog food.jpg",
+            "price": 20
+        }
+    ],
+    "dog bowls": [       
+        {
+            "id": 0,
+            "name": "Bowl 1",
+            "photo": "assets/images/dog bowl.jpg",
+            "price": 5
+        },
+        {
+            "id": 1,
+            "name": "Bowl 2",
+            "photo": "assets/images/dog bowl.jpg",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "Bowl 3",
+            "photo": "assets/images/dog bowl.jpg",
+            "price": 15
+        }
+    ],
+    "dog toys": [       
+        {
+            "id": 0,
+            "name": "Ball",
+            "photo": "assets/images/dog toys.jpg",
+            "price": 5
+        },
+        {
+            "id": 1,
+            "name": "Bone",
+            "photo": "assets/images/dog toys.jpg",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "Rope",
+            "photo": "assets/images/dog toys.jpg",
+            "price": 15
+        }
+    ]
+}

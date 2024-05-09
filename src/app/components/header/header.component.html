@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+    <div class="dropdown">
+        <button class="btn" routerLink="">Home</button>
+    </div>
+    <div class="dropdown">
+        <button class="btn" routerLink="/cats">Cats</button>
+        <div class="dropdown-content">
+            <a href="/cats/food">Cat food</a>
+            <a href="/cats/bowls">Cat bowls</a>
+            <a href="/cats/toys">Cat toys</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="btn" routerLink="/dogs">Dogs</button>
+        <div class="dropdown-content">
+            <a href="/dogs/food">Dog food</a>
+            <a href="/dogs/bowls">Dog bowls</a>
+            <a href="/dogs/toys">Dog toys</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="btn" routerLink="/cart">Cart</button>
+    </div>
+    <div class="dropdown">
+        <button (click)="toggle()" class="btn"><i class="fa fa-search"></i></button>
+    </div>
+    <input [hidden]="hidden" #box (keyup)="changeText(box.value)" placeholder="Search...">
+</header>

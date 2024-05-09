@@ -1,0 +1,6 @@
+.tile:hover {background-color: #dddddd;}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr!important;
+}

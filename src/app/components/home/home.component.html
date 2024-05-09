@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0"> 
+    <link rel="stylesheet"
+          href="home.component.css"> 
+    <title>Pet Shop</title> 
+</head> 
+
+<body>
+    <div class="grid">
+        <ng-container *ngFor="let tile of tiles">
+            <div class="tile" routerLink={{tile.name.toLowerCase()}}>
+                <img width="100%" src={{tile.photo}}/>
+                <div style="display: flex; justify-content: space-between;">
+                    <h2>{{tile.name}}</h2>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</body> 
+  
+</html>

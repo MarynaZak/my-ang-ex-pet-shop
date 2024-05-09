@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0"> 
+    <link rel="stylesheet"
+          href="cart.component.css"> 
+    <title>Pet Shop</title> 
+</head> 
+  
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <h1>Total: {{total}}</h1>
+    </div>
+    <div class="grid">
+        <ng-container *ngFor="let tile of items">
+            <div class="tile">
+                <img width="100%" src={{tile.photo}}/>
+                <div style="display: flex; justify-content: space-between;">
+                    <h2>{{tile.name}}</h2>
+                    <div class="selector">
+                        <button (click)="decreaseQuantity(tile)">-</button>
+                        <input type="text" value="{{tile.quantity}}">
+                        <button (click)="increaseQuantity(tile)">+</button>
+                    </div>
+                    <h2>{{tile.quantity * tile.price}}$</h2>
+                    <button class="btn" (click)="removeFromCart(tile)">Remove</button>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</body> 
+  
+</html>
